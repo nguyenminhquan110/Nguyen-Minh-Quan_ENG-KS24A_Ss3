@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="http://www.mysever.com" method="GET">
+      <label>Họ và tên:</label>
+      <input type="text" />
+      <br />
+      <label>Chọn ngày và giờ:</label>
+      <input type="datetime-local" />
+      <br />
+      <label>Loại dịch vụ:</label>
+      <select name="Dịch vụ" size="1">
+        <option value="">Tư vấn</option>
+        <option value="">gọi thoại</option>
+      </select>
+      <br />
+      <div>
+        <label>Ghi chú:</label>
+        <textarea
+          name="ghi chú"
+          id="ghi chú"
+          style="height: 50px; width: 90px"
+          required
+        ></textarea>
+      </div>
+      <br />
+      <button>Đặt lịch</button>
+    </form>
+  </body>
+</html>
