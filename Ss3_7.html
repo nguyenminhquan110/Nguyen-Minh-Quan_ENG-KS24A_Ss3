@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="post">
+      <div>
+        <label for="username">Họ và Tên</label>
+        <input required id="username" type="username" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input id="email" type="email" />
+      </div>
+      <br />
+      <div>
+        <label for="dateOfBirth">Ngày sinh</label>
+        <input id="dateOfBirthdateOfBirth" type="date" />
+      </div>
+      <br />
+      <div>
+        <label for="time">Giới tính</label>
+        <input checked name="gender" id="male" type="radio" /><label for="male"
+          >Nam</label
+        >
+        <input checked name="gender" id="female" type="radio" /><label
+          for="female"
+          >Nữ</label
+        >
+      </div>
+      <br />
+      <div>
+        <label for="number">Số điện thoại:</label>
+        <input id="number" type="number" />
+      </div>
+      <br />
+      <div>
+        <label for="text">Chuyên ngành:</label>
+        <input id="text" type="text" />
+      </div>
+      <div>
+        <label>Năm nhập học:</label>
+        <input type="number" name="year" /><br />
+      </div>
+      <br />
+      <div>
+        <label>Điểm GPA:</label>
+        <input type="number" step="0.01" name="gpa" /><br />
+      </div>
+      <br />
+      <div>
+        <label>Địa chỉ:</label>
+        <textarea name="address"></textarea><br />
+      </div>
+      <br />
+      <div>
+        <label>Lớp học:</label>
+        <select name="class">
+          <option value="Lớp 1">Lớp 1</option>
+          <option value="Lớp 2">Lớp 2</option>
+          <option value="Lớp 3">Lớp 3</option></select
+        ><br />
+      </div>
+      <br />
+      <div>
+        <label>Ngày đăng ký học:</label>
+        <input type="datetime-local" name="register_date" /><br />
+      </div>
+      <br />
+      <button type="submit">Gửi thông tin</button>
+    </form>
+  </body>
